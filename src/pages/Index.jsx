@@ -32,7 +32,6 @@ const Index = () => {
       setLoading(true);
       const response = await fetch('http://akitaweb.us-east-2.elasticbeanstalk.com/predict-hic', {
         method: 'POST',
-        mode: "cors",
         credentials: 'include',
         body: formData, // No need to set Content-Type header when using FormData
       });
