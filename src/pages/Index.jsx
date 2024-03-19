@@ -30,8 +30,9 @@ const Index = () => {
     // Use Fetch API to send the formData to backend
     try {
       setLoading(true);
-      const response = await fetch('https://6nzxdwcc-5000.usw2.devtunnels.ms/predict-hic', {
+      const response = await fetch('http://akitaweb.us-east-2.elasticbeanstalk.com/predict-hic', {
         method: 'POST',
+        mode: "cors",
         credentials: 'include',
         body: formData, // No need to set Content-Type header when using FormData
       });
@@ -62,7 +63,7 @@ const Index = () => {
   return (
     <VStack height="100vh" padding={4} alignItems="flex-start">
       <Flex alignItems="flex-end">
-        <Image src="../../public/akita_log.jpeg" alt="Akita Logo" boxSize="60px" marginRight={2} />
+        <Image src="/akita_log.jpeg" alt="Akita Logo" boxSize="60px" marginRight={2} />
         <Heading as="h1" size="lg">
         Akita
         </Heading>
