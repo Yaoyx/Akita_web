@@ -7,5 +7,5 @@ export default defineConfig({
   //   port: "8080",
   // },
   plugins: [react()],
-  base: '/Akita_web/', // Set the base to match your repository path
+  base: "/Akita_web/"
 });
