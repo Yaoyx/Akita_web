@@ -3,7 +3,6 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://yaoyx.github.io/Akita_web/",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
