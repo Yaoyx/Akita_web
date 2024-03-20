@@ -81,16 +81,16 @@ const Index = () => {
               {/* Add species options here */}
               <option value="human">Human</option>
               <option value="mouse">Mouse</option>
-              {/* ... other species */}
             </Select>
             <FormLabel htmlFor="sequence-length">Sequence Length</FormLabel>
-            <Input id="sequence-length" placeholder="Enter sequence length" mb={4} />
+            <Select id="sequence-length" placeholder="Select sequence length" mb={4}>
+              {/* Add sequence length options here */}
+              <option value="1048576">1048576 bases</option>
+            </Select>
             <FormLabel htmlFor="bin-size">Bin Size</FormLabel>
             <Select id="bin-size" placeholder="Select bin size" mb={4}>
               {/* Add bin size options here */}
-              <option value="100kb">100kb</option>
-              <option value="1mb">1Mb</option>
-              {/* ... other bin sizes */}
+              <option value="2048">2048 bases</option>
             </Select>
             <Button leftIcon={<FaUpload />} colorScheme="blue" type="submit">
               Submit
