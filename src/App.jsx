@@ -3,7 +3,7 @@ import Index from "./pages/Index.jsx";
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/Akita_web/">
       <Routes>
         <Route exact path="/" element={<Index />} />
       </Routes>
