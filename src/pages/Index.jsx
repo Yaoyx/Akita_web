@@ -97,7 +97,7 @@ const Index = () => {
   return (
     <VStack height="100vh" padding={4} alignItems="flex-start">
       <Flex alignItems="flex-end">
-        <Image src="/akita_log.jpeg" alt="Akita Logo" boxSize="60px" marginRight={2} />
+        <Image src="/Akita_web/akita_log.jpeg" alt="Akita Logo" boxSize="60px" marginRight={2} />
         <Heading as="h1" size="lg" style={{fontWeight: 'normal'}}>
         Akita
         </Heading>
