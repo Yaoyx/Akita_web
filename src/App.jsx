@@ -5,7 +5,7 @@ function App() {
   return (
     <Router basename="/">
       <Routes>
-        <Route exact path="/" element={<Index />} />
+        <Route exact path="/Akita_web/" element={<Index />} />
       </Routes>
     </Router>
   );
